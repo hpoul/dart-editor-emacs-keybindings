@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dartKeyBindings version="1">
+<!--The format is straightforward, consisting of two attributes plus one that is optional.
+The required attributes are the command name, which is the same as it appears in
+menus, and the key sequence, which is all uppercase. The optional attribute is the
+name of the platform to which the binding applies if it is not universal.-->
+<keyBinding commandName="Activate Editor" keySequence="COMMAND+F12" platform="cocoa"/>
+<keyBinding commandName="Backward History" keySequence="ALT+ARROW_LEFT"/>
+<keyBinding commandName="Backward History" keySequence="ALT+COMMAND+ARROW_LEFT" platform="cocoa"/>
+<keyBinding commandName="Backward History" keySequence="COMMAND+[" platform="cocoa"/>
+<keyBinding commandName="Close" keySequence="COMMAND+W"/>
+<keyBinding commandName="Close All" keySequence="COMMAND+SHIFT+W"/>
+<keyBinding commandName="Close Glance" keySequence="ESC"/>
+<keyBinding commandName="Content Assist" keySequence="ALT+/"/>
+<keyBinding commandName="Content Assist" keySequence="CTRL+SPACE"/>
+<keyBinding commandName="Copy" keySequence="COMMAND+C"/>
+<keyBinding commandName="Copy Lines" keySequence="ALT+COMMAND+ARROW_DOWN"/>
+<keyBinding commandName="Cut" keySequence="COMMAND+X"/>
+<keyBinding commandName="Cut to End of Line" keySequence="ALT+COMMAND+SHIFT+DEL"/>
+<keyBinding commandName="Declaration in Workspace" keySequence="COMMAND+SHIFT+D"/>
+<keyBinding commandName="Delete" keySequence="DEL"/>
+<keyBinding commandName="Delete Line" keySequence="COMMAND+D"/>
+<keyBinding commandName="Delete Next Word" keySequence="COMMAND+DEL"/>
+<keyBinding commandName="Delete Next Word" keySequence="ALT+DEL" platform="cocoa"/>
+<keyBinding commandName="Delete Previous Word" keySequence="COMMAND+BS"/>
+<keyBinding commandName="Delete Previous Word" keySequence="ALT+BS" platform="cocoa"/>
+<keyBinding commandName="Delete to End of Line" keySequence="COMMAND+SHIFT+DEL"/>
+<keyBinding commandName="Duplicate Lines" keySequence="ALT+COMMAND+ARROW_UP"/>
+<keyBinding commandName="Extract Local Variable" keySequence="ALT+COMMAND+L" platform="cocoa"/>
+<keyBinding commandName="Extract Method" keySequence="ALT+COMMAND+M" platform="cocoa"/>
+<keyBinding commandName="Find Callers" keySequence="ALT+CTRL+H"/>
+<keyBinding commandName="Find Next" keySequence="COMMAND+G"/>
+<keyBinding commandName="Find Next" keySequence="COMMAND+K"/>
+<keyBinding commandName="Find Previous" keySequence="COMMAND+SHIFT+G"/>
+<keyBinding commandName="Find Previous" keySequence="COMMAND+SHIFT+K"/>
+<keyBinding commandName="Find and Replace" keySequence="COMMAND+SHIFT+F"/>
+<keyBinding commandName="Format Element" keySequence="COMMAND+SHIFT+R"/>
+<keyBinding commandName="Forward History" keySequence="ALT+ARROW_RIGHT"/>
+<keyBinding commandName="Forward History" keySequence="ALT+COMMAND+ARROW_RIGHT" platform="cocoa"/>
+<keyBinding commandName="Forward History" keySequence="COMMAND+]" platform="cocoa"/>
+<keyBinding commandName="Generate JavaScript" keySequence="COMMAND+SHIFT+G"/>
+<keyBinding commandName="Go to Line" keySequence="COMMAND+L"/>
+<keyBinding commandName="Go to Matching Bracket" keySequence="COMMAND+SHIFT+P"/>
+<keyBinding commandName="Inline" keySequence="ALT+COMMAND+I" platform="cocoa"/>
+<keyBinding commandName="Insert Line Above Current Line" keySequence="COMMAND+SHIFT+CR"/>
+<keyBinding commandName="Insert Line Below Current Line" keySequence="SHIFT+CR"/>
+<keyBinding commandName="Join Lines" keySequence="ALT+COMMAND+J"/>
+<keyBinding commandName="Line Down" keySequence="ARROW_DOWN"/>
+<keyBinding commandName="Line End" keySequence="END"/>
+<keyBinding commandName="Line End" keySequence="COMMAND+ARROW_RIGHT" platform="cocoa"/>
+<keyBinding commandName="Line Start" keySequence="HOME"/>
+<keyBinding commandName="Line Start" keySequence="COMMAND+ARROW_LEFT" platform="cocoa"/>
+<keyBinding commandName="Line Up" keySequence="ARROW_UP"/>
+<keyBinding commandName="Manage Launches" keySequence="COMMAND+SHIFT+M"/>
+<keyBinding commandName="Maximize Active View or Editor" keySequence="COMMAND+M"/>
+<keyBinding commandName="Maximize Active View or Editor" keySequence="CTRL+M" platform="cocoa"/>
+<keyBinding commandName="Move Lines Down" keySequence="ALT+ARROW_DOWN"/>
+<keyBinding commandName="Move Lines Up" keySequence="ALT+ARROW_UP"/>
+<keyBinding commandName="New File..." keySequence="COMMAND+N"/>
+<keyBinding commandName="Next Column" keySequence="ARROW_RIGHT"/>
+<keyBinding commandName="Next Editor" keySequence="COMMAND+F6"/>
+<keyBinding commandName="Next Tab" keySequence="CTRL+TAB"/>
+<keyBinding commandName="Next Word" keySequence="COMMAND+ARROW_RIGHT"/>
+<keyBinding commandName="Next Word" keySequence="ALT+ARROW_RIGHT" platform="cocoa"/>
+<keyBinding commandName="Open Class Hierarchy" keySequence="F4"/>
+<keyBinding commandName="Open Declaration" keySequence="F3"/>
+<keyBinding commandName="Open Existing Folder..." keySequence="COMMAND+O"/>
+<keyBinding commandName="Open Glance" keySequence="COMMAND+F"/>
+<keyBinding commandName="Open Structure" keySequence="COMMAND+F3"/>
+<keyBinding commandName="Page Down" keySequence="PAGE_DOWN"/>
+<keyBinding commandName="Page Up" keySequence="PAGE_UP"/>
+<keyBinding commandName="Paste" keySequence="COMMAND+V"/>
+<keyBinding commandName="Previous Column" keySequence="ARROW_LEFT"/>
+<keyBinding commandName="Previous Editor" keySequence="COMMAND+SHIFT+F6"/>
+<keyBinding commandName="Previous Tab" keySequence="CTRL+SHIFT+TAB"/>
+<keyBinding commandName="Previous Word" keySequence="COMMAND+ARROW_LEFT"/>
+<keyBinding commandName="Previous Word" keySequence="ALT+ARROW_LEFT" platform="cocoa"/>
+<keyBinding commandName="Properties" keySequence="ALT+CR"/>
+<keyBinding commandName="Properties" keySequence="COMMAND+I" platform="cocoa"/>
+<keyBinding commandName="Quick Fix" keySequence="COMMAND+1"/>
+<keyBinding commandName="Quick Hierarchy" keySequence="COMMAND+T"/>
+<keyBinding commandName="Quick Outline" keySequence="ALT+O"/>
+<keyBinding commandName="Quick Switch Editor" keySequence="COMMAND+E"/>
+<keyBinding commandName="Reanalyze Sources" keySequence="ALT+COMMAND+SHIFT+B"/>
+<keyBinding commandName="Redo" keySequence="COMMAND+SHIFT+Z"/>
+<keyBinding commandName="References in Workspace" keySequence="COMMAND+SHIFT+U"/>
+<keyBinding commandName="Refresh" keySequence="F5"/>
+<keyBinding commandName="Rename - Refactoring " keySequence="ALT+COMMAND+R" platform="cocoa"/>
+<keyBinding commandName="Restore Last Selection" keySequence="ALT+SHIFT+ARROW_DOWN"/>
+<keyBinding commandName="Restore Last Selection" keySequence="ALT+CTRL+SHIFT+ARROW_DOWN" platform="cocoa"/>
+<keyBinding commandName="Resume" keySequence="F8"/>
+<keyBinding commandName="Run" keySequence="COMMAND+R"/>
+<keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F1"/>
+<keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F2"/>
+<keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F3"/>
+<keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F4"/>
+<keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F5"/>
+<keyBinding commandName="Save" keySequence="COMMAND+S"/>
+<keyBinding commandName="Save All" keySequence="COMMAND+SHIFT+S"/>
+<keyBinding commandName="Scroll Line Down" keySequence="CTRL+ARROW_DOWN"/>
+<keyBinding commandName="Scroll Line Up" keySequence="CTRL+ARROW_UP"/>
+<keyBinding commandName="Search Box" keySequence="COMMAND+3"/>
+<keyBinding commandName="Select All" keySequence="COMMAND+A"/>
+<keyBinding commandName="Select Enclosing Element" keySequence="ALT+SHIFT+ARROW_UP"/>
+<keyBinding commandName="Select Enclosing Element" keySequence="ALT+CTRL+SHIFT+ARROW_UP" platform="cocoa"/>
+<keyBinding commandName="Select Line End" keySequence="SHIFT+END"/>
+<keyBinding commandName="Select Line End" keySequence="COMMAND+SHIFT+ARROW_RIGHT" platform="cocoa"/>
+<keyBinding commandName="Select Line Start" keySequence="SHIFT+HOME"/>
+<keyBinding commandName="Select Line Start" keySequence="COMMAND+SHIFT+ARROW_LEFT" platform="cocoa"/>
+<keyBinding commandName="Select Next Element" keySequence="ALT+SHIFT+ARROW_RIGHT"/>
+<keyBinding commandName="Select Next Element" keySequence="CTRL+SHIFT+ARROW_RIGHT" platform="cocoa"/>
+<keyBinding commandName="Select Next Word" keySequence="COMMAND+SHIFT+ARROW_RIGHT"/>
+<keyBinding commandName="Select Next Word" keySequence="ALT+SHIFT+ARROW_RIGHT" platform="cocoa"/>
+<keyBinding commandName="Select Previous Element" keySequence="ALT+SHIFT+ARROW_LEFT"/>
+<keyBinding commandName="Select Previous Element" keySequence="CTRL+SHIFT+ARROW_LEFT" platform="cocoa"/>
+<keyBinding commandName="Select Previous Word" keySequence="COMMAND+SHIFT+ARROW_LEFT"/>
+<keyBinding commandName="Select Previous Word" keySequence="ALT+SHIFT+ARROW_LEFT" platform="cocoa"/>
+<keyBinding commandName="Select Text End" keySequence="SHIFT+END" platform="cocoa"/>
+<keyBinding commandName="Select Text Start" keySequence="SHIFT+HOME" platform="cocoa"/>
+<keyBinding commandName="Show Key Assist" keySequence="COMMAND+SHIFT+L"/>
+<keyBinding commandName="Show Ruler Context Menu" keySequence="COMMAND+F10"/>
+<keyBinding commandName="Show in Finder" keySequence="ALT+COMMAND+SHIFT+F"/>
+<keyBinding commandName="Step Into" keySequence="F5"/>
+<keyBinding commandName="Step Over" keySequence="F6"/>
+<keyBinding commandName="Step Return" keySequence="F7"/>
+<keyBinding commandName="Terminate" keySequence="COMMAND+F2"/>
+<keyBinding commandName="Text End" keySequence="COMMAND+END"/>
+<keyBinding commandName="Text End" keySequence="END" platform="cocoa"/>
+<keyBinding commandName="Text Start" keySequence="COMMAND+HOME"/>
+<keyBinding commandName="Text Start" keySequence="HOME" platform="cocoa"/>
+<keyBinding commandName="To Lower Case" keySequence="COMMAND+SHIFT+Y"/>
+<keyBinding commandName="To Upper Case" keySequence="COMMAND+SHIFT+X"/>
+<keyBinding commandName="Toggle Breakpoint" keySequence="COMMAND+SHIFT+B"/>
+<keyBinding commandName="Toggle Comment" keySequence="COMMAND+/"/>
+<keyBinding commandName="Toggle Overwrite" keySequence="INSERT"/>
+<keyBinding commandName="Undo" keySequence="COMMAND+Z"/>
+</dartKeyBindings>
