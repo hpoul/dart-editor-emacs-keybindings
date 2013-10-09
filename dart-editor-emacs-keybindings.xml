@@ -19,6 +19,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Cut to End of Line" keySequence="ALT+COMMAND+SHIFT+DEL"/>
 <keyBinding commandName="Declaration in Workspace" keySequence="COMMAND+SHIFT+D"/>
 <keyBinding commandName="Delete" keySequence="DEL"/>
+<keyBinding commandName="Delete" keySequence="CTRL+D"/>
 <keyBinding commandName="Delete Line" keySequence="COMMAND+D"/>
 <keyBinding commandName="Delete Next Word" keySequence="COMMAND+DEL"/>
 <keyBinding commandName="Delete Next Word" keySequence="ALT+DEL" platform="cocoa"/>
@@ -46,11 +47,13 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Insert Line Below Current Line" keySequence="SHIFT+CR"/>
 <keyBinding commandName="Join Lines" keySequence="ALT+COMMAND+J"/>
 <keyBinding commandName="Line Down" keySequence="ARROW_DOWN"/>
-<keyBinding commandName="Line End" keySequence="END"/>
+<keyBinding commandName="Line Down" keySequence="CTRL+N"/>
+<keyBinding commandName="Line End" keySequence="CTRL+E" platform="cocoa"/>
 <keyBinding commandName="Line End" keySequence="COMMAND+ARROW_RIGHT" platform="cocoa"/>
-<keyBinding commandName="Line Start" keySequence="HOME"/>
+<keyBinding commandName="Line Start" keySequence="CTRL+A" platform="cocoa"/>
 <keyBinding commandName="Line Start" keySequence="COMMAND+ARROW_LEFT" platform="cocoa"/>
 <keyBinding commandName="Line Up" keySequence="ARROW_UP"/>
+<keyBinding commandName="Line Up" keySequence="CTRL+P"/>
 <keyBinding commandName="Manage Launches" keySequence="COMMAND+SHIFT+M"/>
 <keyBinding commandName="Maximize Active View or Editor" keySequence="COMMAND+M"/>
 <keyBinding commandName="Maximize Active View or Editor" keySequence="CTRL+M" platform="cocoa"/>
@@ -58,6 +61,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Move Lines Up" keySequence="ALT+ARROW_UP"/>
 <keyBinding commandName="New File..." keySequence="COMMAND+N"/>
 <keyBinding commandName="Next Column" keySequence="ARROW_RIGHT"/>
+<keyBinding commandName="Next Column" keySequence="CTRL+F"/>
 <keyBinding commandName="Next Editor" keySequence="COMMAND+F6"/>
 <keyBinding commandName="Next Tab" keySequence="CTRL+TAB"/>
 <keyBinding commandName="Next Word" keySequence="COMMAND+ARROW_RIGHT"/>
@@ -71,6 +75,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Page Up" keySequence="PAGE_UP"/>
 <keyBinding commandName="Paste" keySequence="COMMAND+V"/>
 <keyBinding commandName="Previous Column" keySequence="ARROW_LEFT"/>
+<keyBinding commandName="Previous Column" keySequence="CTRL+B"/>
 <keyBinding commandName="Previous Editor" keySequence="COMMAND+SHIFT+F6"/>
 <keyBinding commandName="Previous Tab" keySequence="CTRL+SHIFT+TAB"/>
 <keyBinding commandName="Previous Word" keySequence="COMMAND+ARROW_LEFT"/>
@@ -103,9 +108,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Select All" keySequence="COMMAND+A"/>
 <keyBinding commandName="Select Enclosing Element" keySequence="ALT+SHIFT+ARROW_UP"/>
 <keyBinding commandName="Select Enclosing Element" keySequence="ALT+CTRL+SHIFT+ARROW_UP" platform="cocoa"/>
-<keyBinding commandName="Select Line End" keySequence="SHIFT+END"/>
 <keyBinding commandName="Select Line End" keySequence="COMMAND+SHIFT+ARROW_RIGHT" platform="cocoa"/>
-<keyBinding commandName="Select Line Start" keySequence="SHIFT+HOME"/>
 <keyBinding commandName="Select Line Start" keySequence="COMMAND+SHIFT+ARROW_LEFT" platform="cocoa"/>
 <keyBinding commandName="Select Next Element" keySequence="ALT+SHIFT+ARROW_RIGHT"/>
 <keyBinding commandName="Select Next Element" keySequence="CTRL+SHIFT+ARROW_RIGHT" platform="cocoa"/>
@@ -134,4 +137,5 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Toggle Comment" keySequence="COMMAND+/"/>
 <keyBinding commandName="Toggle Overwrite" keySequence="INSERT"/>
 <keyBinding commandName="Undo" keySequence="COMMAND+Z"/>
+<keyBinding commandName="Undo" keySequence="CTRL+_"/>
 </dartKeyBindings>
