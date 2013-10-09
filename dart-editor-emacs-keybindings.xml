@@ -14,9 +14,12 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Content Assist" keySequence="ALT+/"/>
 <keyBinding commandName="Content Assist" keySequence="CTRL+SPACE"/>
 <keyBinding commandName="Copy" keySequence="COMMAND+C"/>
+<keyBinding commandName="Copy" keySequence="ALT+W"/>
 <keyBinding commandName="Copy Lines" keySequence="ALT+COMMAND+ARROW_DOWN"/>
 <keyBinding commandName="Cut" keySequence="COMMAND+X"/>
+<keyBinding commandName="Cut" keySequence="CTRL+W"/>
 <keyBinding commandName="Cut to End of Line" keySequence="ALT+COMMAND+SHIFT+DEL"/>
+<keyBinding commandName="Cut to End of Line" keySequence="CTRL+K"/>
 <keyBinding commandName="Declaration in Workspace" keySequence="COMMAND+SHIFT+D"/>
 <keyBinding commandName="Delete" keySequence="DEL"/>
 <keyBinding commandName="Delete" keySequence="CTRL+D"/>
@@ -74,6 +77,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Page Down" keySequence="PAGE_DOWN"/>
 <keyBinding commandName="Page Up" keySequence="PAGE_UP"/>
 <keyBinding commandName="Paste" keySequence="COMMAND+V"/>
+<keyBinding commandName="Paste" keySequence="CTRL+Y"/>
 <keyBinding commandName="Previous Column" keySequence="ARROW_LEFT"/>
 <keyBinding commandName="Previous Column" keySequence="CTRL+B"/>
 <keyBinding commandName="Previous Editor" keySequence="COMMAND+SHIFT+F6"/>

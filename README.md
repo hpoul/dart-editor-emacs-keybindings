@@ -20,3 +20,9 @@ It currently contains the following additional keybindings:
 * Next Column: CTRL+F
 * Previous Column: CTRL+B
 * Undo: CTRL+_
+* Paste: CTRL+Y
+* Copy: CTRL+W
+* Cut: ALT+W
+* Cut to End of Line: CTRL+K
+
+
