@@ -12,7 +12,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Close All" keySequence="COMMAND+SHIFT+W"/>
 <keyBinding commandName="Close Glance" keySequence="ESC"/>
 <keyBinding commandName="Content Assist" keySequence="ALT+/"/>
-<keyBinding commandName="Content Assist" keySequence="CTRL+SPACE"/>
+<!--keyBinding commandName="Content Assist" keySequence="CTRL+SPACE"/-->
 <keyBinding commandName="Copy" keySequence="COMMAND+C"/>
 <keyBinding commandName="Copy" keySequence="ALT+W"/>
 <keyBinding commandName="Copy Lines" keySequence="ALT+COMMAND+ARROW_DOWN"/>
@@ -90,6 +90,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Quick Hierarchy" keySequence="COMMAND+T"/>
 <keyBinding commandName="Quick Outline" keySequence="ALT+O"/>
 <keyBinding commandName="Quick Switch Editor" keySequence="COMMAND+E"/>
+<keyBinding commandName="Quick Switch Editor" keySequence="CTRL+X B"/>
 <keyBinding commandName="Reanalyze Sources" keySequence="ALT+COMMAND+SHIFT+B"/>
 <keyBinding commandName="Redo" keySequence="COMMAND+SHIFT+Z"/>
 <keyBinding commandName="References in Workspace" keySequence="COMMAND+SHIFT+U"/>
@@ -142,4 +143,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Toggle Overwrite" keySequence="INSERT"/>
 <keyBinding commandName="Undo" keySequence="COMMAND+Z"/>
 <keyBinding commandName="Undo" keySequence="CTRL+_"/>
+<keyBinding commandName="Set Mark" keySequence="CTRL+SPACE"/>
+<keyBinding commandName="Clear Mark" keySequence="CTRL+G"/>
+
 </dartKeyBindings>
