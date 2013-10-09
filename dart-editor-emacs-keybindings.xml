@@ -106,6 +106,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F4"/>
 <keyBinding commandName="Run Script" keySequence="COMMAND+SHIFT+F5"/>
 <keyBinding commandName="Save" keySequence="COMMAND+S"/>
+<keyBinding commandName="Save" keySequence="CTRL+X CTRL+S"/>
 <keyBinding commandName="Save All" keySequence="COMMAND+SHIFT+S"/>
 <keyBinding commandName="Scroll Line Down" keySequence="CTRL+ARROW_DOWN"/>
 <keyBinding commandName="Scroll Line Up" keySequence="CTRL+ARROW_UP"/>
