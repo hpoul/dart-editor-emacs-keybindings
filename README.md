@@ -32,3 +32,12 @@ It currently contains the following additional keybindings:
 * Next Word: ALT+F
 * Previous Word: ALT+B
 
+
+Changelog
+---------------------
+
+* 2013-12-18: Added ALT+F/ALT+B
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hpoul/dart-editor-emacs-keybindings/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
