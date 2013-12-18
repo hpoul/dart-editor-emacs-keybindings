@@ -27,10 +27,8 @@ It currently contains the following additional keybindings:
 * Quick Switch Editor: CTRL+X B
 * Save: CTRL+X CTRL+S
 * Incremental Find: CTRL+S
-
-The following require patching of com.google.dart.tools.ui / plugin.xml https://codereview.chromium.org/26233003
-
 * Set Mark: CTRL+SPACE
 * Clear Mark: CTRL+G
-
+* Next Word: ALT+F
+* Previous Word: ALT+B
 

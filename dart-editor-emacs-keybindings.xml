@@ -68,6 +68,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Next Editor" keySequence="COMMAND+F6"/>
 <keyBinding commandName="Next Tab" keySequence="CTRL+TAB"/>
 <keyBinding commandName="Next Word" keySequence="COMMAND+ARROW_RIGHT"/>
+<keyBinding commandName="Next Word" keySequence="ALT+F"/>
 <keyBinding commandName="Next Word" keySequence="ALT+ARROW_RIGHT" platform="cocoa"/>
 <keyBinding commandName="Open Class Hierarchy" keySequence="F4"/>
 <keyBinding commandName="Open Declaration" keySequence="F3"/>
@@ -83,6 +84,7 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Previous Editor" keySequence="COMMAND+SHIFT+F6"/>
 <keyBinding commandName="Previous Tab" keySequence="CTRL+SHIFT+TAB"/>
 <keyBinding commandName="Previous Word" keySequence="COMMAND+ARROW_LEFT"/>
+<keyBinding commandName="Previous Word" keySequence="ALT+B"/>
 <keyBinding commandName="Previous Word" keySequence="ALT+ARROW_LEFT" platform="cocoa"/>
 <keyBinding commandName="Properties" keySequence="ALT+CR"/>
 <keyBinding commandName="Properties" keySequence="COMMAND+I" platform="cocoa"/>
