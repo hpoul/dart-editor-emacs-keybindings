@@ -147,6 +147,6 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Set Mark" keySequence="CTRL+SPACE"/>
 <keyBinding commandName="Clear Mark" keySequence="CTRL+G"/>
 <keyBinding commandName="Incremental Find" keySequence="CTRL+S"/>
-<keyBinding commandName="Incremental Find Reverse" keySequence="CTRL+R"/> <-- for some reason this is not working right now? -->
+<keyBinding commandName="Incremental Find Reverse" keySequence="CTRL+R"/> <!-- for some reason this is not working right now? -->
 
 </dartKeyBindings>
