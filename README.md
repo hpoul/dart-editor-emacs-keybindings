@@ -31,11 +31,14 @@ It currently contains the following additional keybindings:
 * Clear Mark: CTRL+G
 * Next Word: ALT+F
 * Previous Word: ALT+B
+* Page Down: CTRL+V
+* Page Up: ALT+V
 
 
 Changelog
 ---------------------
 
+* 2013-12-19: Added CTRL+V/ALT+V
 * 2013-12-18: Added ALT+F/ALT+B
 
 
