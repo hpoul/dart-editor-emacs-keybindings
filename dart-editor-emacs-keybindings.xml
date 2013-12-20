@@ -76,7 +76,9 @@ name of the platform to which the binding applies if it is not universal.-->
 <keyBinding commandName="Open Glance" keySequence="COMMAND+F"/>
 <keyBinding commandName="Open Structure" keySequence="COMMAND+F3"/>
 <keyBinding commandName="Page Down" keySequence="PAGE_DOWN"/>
+<keyBinding commandName="Page Down" keySequence="CTRL+V"/>
 <keyBinding commandName="Page Up" keySequence="PAGE_UP"/>
+<keyBinding commandName="Page Up" keySequence="ALT+V"/>
 <keyBinding commandName="Paste" keySequence="COMMAND+V"/>
 <keyBinding commandName="Paste" keySequence="CTRL+Y"/>
 <keyBinding commandName="Previous Column" keySequence="ARROW_LEFT"/>
